@@ -1,18 +1,16 @@
-<h1><%= pageTitle %></h1>
+<h1><%= data.pageTitle %></h1>
 
-<!-- <% %> JavaScript-->
-<!-- <%=  %>  Tells you to print to the screen -->
-
-<%
-  console.log('hello')
-  <!-- forEach is for an array as opposed to a for loop -->
-<<ul></ul>
-  data.properties.forEach(function (property, index) {
-
-  });
-%>
-
-
+<ul>
+<% data.properties.forEach(function(property, index){ %>
+    <li><%= property.ownerName %></li>
+<% }); %>
+</ul>
+<%= %>
 <script>
   console.log('hello')
+
 </script>
+
+
+<% var name ="hello";  %>
+<%= name  %>
