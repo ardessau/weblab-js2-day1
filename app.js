@@ -39,6 +39,11 @@ o2.name = "Ms. " + o2.name + " Dessauer";
 
 var myArray = ["Apples", "Oranges", "Kiwi"];
 
+myArray.forEach(function(element, index){
+  console.log(element , index);
+})
+
+
 console.log(myArray[0]);
 console.log(o2.fruit[0]);
 
