@@ -1,0 +1,19 @@
+{
+  "name": "weblab-js2-day1",
+  "version": "1.0.0",
+  "description": "Weblab JavaScript2 Day1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardessau/weblab-js2-day1.git"
+  },
+  "author": "Audrey Dessauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardessau/weblab-js2-day1/issues"
+  },
+  "homepage": "https://github.com/ardessau/weblab-js2-day1#readme"
+}
